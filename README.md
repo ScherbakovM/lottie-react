@@ -2,7 +2,7 @@
 
 ## how to play lottie onClick  lottie-react 
 
-## как использовать lottie в реакт
+## анимация по клику lottie в реакт
 
 
 ### list metods

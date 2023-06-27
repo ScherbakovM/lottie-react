@@ -1,0 +1,19 @@
+import './App.css';
+import React from "react";
+import Lottie from "lottie-react";
+import animationData from "./kadokado-clapping.json";
+import { useRef } from 'react';
+
+
+
+const App = () => {
+  const lottieRef = useRef()
+  return (
+    <Lottie onClick={() =>{lottieRef.current.goToAndPlay(1, false)} 
+    }
+      lottieRef={lottieRef} loop={false} animationData={animationData} />
+  )
+
+};
+
+export default App;
